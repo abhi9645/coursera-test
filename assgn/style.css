@@ -3,7 +3,8 @@
      margin: 0;
      padding:0;
   }
-  p{
+ 
+  section{
       
       font-style: normal;
       border: 1px solid black;
@@ -11,49 +12,95 @@
        
       background-color:burlywood;
       float: left;
-      height: 300px;
+      
       
       
   }
+  h1{
+      
+    color:black;
+    background-color: blanchedalmond;
+    
+    padding: 2px;
+    border: 2px solid gray;
+    float:right;
+    font-style: oblique;
+    margin-bottom: 2px;
+    
+
+    
+    
+
+}
+  p{
+      clear: both;
+      float: left;
+      font-style: oblique;
+      font-size: larger;
+      font-weight: 300;
+      margin: 10px;
+      
+      
+  }
+  .col-1{
+
+    background-color:  cornsilk;
+    
+}
+.col-2{
+    
+    background-color:  darkturquoise;
+}
+.col-3{
+    background-color: khaki;
+}
+  
+ 
    
   @media (min-width: 768px) and (max-width:991px) {
-      .col-1{
-      width: 100%;
+     
+  .col-1{
+    width: 50%;
+    background-color:  cornsilk;
+    
+}
+.col-2{
+    width: 50%;
+    background-color:  darkturquoise;
+}
+.col-3{
+    width: 50%;
+}
+    
       
   }
-  .col-2{
-      width: 100%;
-  }
-  .col-3{
-      width: 100%;
-  }
+  @media (min-width: 992px)  {
+    .col-1{
+        width: 33.3%;
+        position: relative;
+        
+    }
+    .col-2{
+        width: 33.3%;
+    }
+    .col-3{
+        width: 33.3%;
+    }
       
   }
-  @media (min-width: 992px) and (max-width:1199px) {
-      .col-1{
-      width: 50%;
-      
-  }
-  .col-2{
-      width: 50%;
-  }
-  .col-3{
-      width: 50%;
-  }
-      
-  }
-  @media (min-width: 1200px) {
+  @media (max-width: 767px) {
 
-      .col-1{
-      width: 33.3%;
-      position: relative;
+     
+  .col-1{
+    width: 100%;
+    
+}
+.col-2{
+    width: 100%;
+}
+.col-3{
+    width: 100%;
+}
       
   }
-  .col-2{
-      width: 33.3%;
-  }
-  .col-3{
-      width: 33.3%;
-  }
-      
-  }
+  
