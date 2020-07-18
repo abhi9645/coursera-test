@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        *{
+          box-sizing: border-box;
+           margin: 0;
+           padding:0;
+        }
+        p{
+            
+            font-style: normal;
+            border: 1px solid black;
+            padding:10px;
+             
+            background-color:burlywood;
+            float: left;
+            height: 300px;
+            
+            
+        }
+         
+        @media (min-width: 768px) and (max-width:991px) {
+            .col-1{
+            width: 100%;
+            
+        }
+        .col-2{
+            width: 100%;
+        }
+        .col-3{
+            width: 100%;
+        }
+            
+        }
+        @media (min-width: 992px) and (max-width:1199px) {
+            .col-1{
+            width: 50%;
+            
+        }
+        .col-2{
+            width: 50%;
+        }
+        .col-3{
+            width: 50%;
+        }
+            
+        }
+        @media (min-width: 1200px) {
+
+            .col-1{
+            width: 33.3%;
+            position: relative;
+            
+        }
+        .col-2{
+            width: 33.3%;
+        }
+        .col-3{
+            width: 33.3%;
+        }
+            
+        }
+
+
+    </style>
+</head>
+<body>
+     <p class="col-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident est sint minima corrupti repellat numquam, recusandae distinctio officia adipisci itaque explicabo, a minus voluptas. Quis quos eum voluptate eligendi.</p>
+     <p class="col-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam aliquam, illo neque, laudantium molestias atque veniam animi officia a quasi earum nisi repellat quibusdam. Veniam pariatur mollitia aliquid velit doloremque?</p>
+     <p class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel optio inventore, perferendis maiores, consectetur qui necessitatibus, est odio in nisi tempora! Dolorem eaque et optio possimus quas adipisci ea deleniti?</p>
+</body>
+</html>
